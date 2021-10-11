@@ -14,6 +14,8 @@ public class ApiClinicaOdontologicaApplication {
 
 		SpringApplication.run(ApiClinicaOdontologicaApplication.class, args);
 
+
+
 	}
 
 }
