@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Odontólogo</title>
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style/agregar.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="titulo">
+                <p>Odontólogos</p>
+            </div>
+            <div class="vinculos">
+                <a href="./index.html">Home</a>
+                <a href="./listarOdontologo.html">Ver todos</a>
+                <a href="./agregarPaciente.html">Agregar Paciente</a>
+                <a href="./agregarTurno.html">Cargar Turno</a>
+                <a href="#">About</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form class="agregarOdontologo" id='formulario'>
+            <div class="tituloForm">
+                <h2>Agregar Odontólogo</h2>
+            </div>
+            <div>
+                <label for="apellido">
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                </label>
+                <label for="nombre">
+
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </label>
+
+                <label for="matricula">
+                    <input type="text" name="matricula" id="matricula" placeholder="Matrícula">
+                </label>
+            </div>
+            <div>
+                <button id="submitOdontologo" type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </main>
+    <script type="text/javascript" src="./js/post_odontologo.js"></script>
+</body>
+
+</html>

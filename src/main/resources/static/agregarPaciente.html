@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Paciente</title>
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/agregarPaciente.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="titulo">
+                <p>Pacientes</p>
+            </div>
+            <div class="vinculos">
+                <a href="./index.html">Home</a>
+                <a href="./listarPaciente.html">Ver todos</a>
+                <a href="./agregarOdontologo.html">Agregar Odontólogo</a>
+                <a href="./agregarTurno.html">Cargar Turno</a>
+                <a href="#">About</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form class="agregarPaciente" id='formulario'>
+            <div class="tituloForm">
+                <h2>Agregar Paciente</h2>
+            </div>
+            <div>
+                <label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                </label>
+                <label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </label>
+                <label>
+                    <input type="text" name="dni" id="dni" placeholder="DNI">
+                </label>
+                <label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </label>
+                <label>
+                    Fecha de Alta
+                    <input type="date" name="fechaAlta" id="fechaAlta" placeholder="AAAA-MM-DD">
+                </label>
+                <div class="contenedorDireccion">
+                    <h4>Dirección</h4>
+                    <label>
+                        <input type="text" name="calle" id="calle" placeholder="Calle"> </label>
+                    <label for="">
+                        <input type="text" name="numero" id="numero" placeholder="Numero">
+                    </label>
+                    <label for="">
+                        <input type="text" name="localidad" id="localidad" placeholder="Localidad">
+                    </label>
+                    <label for="">
+                        <input type="text" name="provincia" id="provincia" placeholder="Provincia">
+                    </label>
+                </div>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </main>
+    <script type="text/javascript" src="./js/post_paciente.js"></script>
+</body>
+
+</html>

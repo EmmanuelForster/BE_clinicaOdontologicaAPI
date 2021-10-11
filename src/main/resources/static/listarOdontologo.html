@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Odontologos</title>
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
+        <link rel="stylesheet" href="./style/listar.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="titulo">
+                <p>Odontólogos</p>
+            </div>
+            <div class="vinculos">
+                <a href="./index.html">Home</a>
+                <a href="./agregarOdontologo.html">Agregar Odontólogo</a>
+                <a href="./listarPaciente.html">Lista de Pacientes</a>
+                <a href="./agregarTurno.html">Cargar Turno</a>
+                <p>About</p>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="tituloTabla">
+            <h6></h6>
+        </div>
+
+        <div class="table-responsive">
+            <table class="tabla" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+    <script src='./js/get_odontologo.js'></script>
+    <script src='./js/delete_odontologo.js'></script>
+    <script src='./js/put_odontologo.js'></script>
+</body>
+
+</html>

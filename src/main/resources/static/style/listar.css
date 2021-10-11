@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Menu Lateral */
+nav{
+    width: 15vw;
+    background-color: #5D5A5D;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.titulo{
+    height: 80px;
+    background-color: #423D46;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.vinculos{
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 15px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(109, 109, 109, 0.685);
+}
+
+a:hover{
+    color:rgb(179, 176, 176);
+}
+
+main{
+    width: 85vw;
+}
+
+/* Tabla */
+.tituloTabla{
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+    padding: .75rem 1.25rem;
+    font-weight: 700; 
+    font-size: 25px;
+    color: #5D5A5D;
+}
+
+
+.tabla{
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border: 1px solid #e3e6f0;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+}
+
+td, th{
+    padding: .75rem;
+    vertical-align: top;
+    border: 1px solid #e3e6f0;
+}
+
+/* Botones */
+
+.delete{
+    color: white;
+    font-size: 15px;
+    background: linear-gradient(180deg, #fa332c 0%, #b37171 100%);
+    border-radius: 3px;
+    padding: 5px;
+    width: 30px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.edit {
+    color: white;
+    font-size: 15px;
+    background: linear-gradient(180deg, #2c3afa 0%, #717bb3 100%);
+    border-radius: 3px;
+    padding: 5px;
+    width: 30px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.info {
+    color: white;
+    font-size: 15px;
+    background: linear-gradient(180deg, #2cc0fa 0%, #717bb3 100%);
+    border-radius: 3px;
+    padding: 5px;
+    width: 30px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.delete:hover{
+    background: linear-gradient(180deg, #f8170f 0%, #b14848 100%);
+
+}
+
+.delete:active {
+    position: relative;
+    top: 1px;
+}
+
+.edit:hover{
+    background: linear-gradient(180deg, #0f13f8 0%, #5348b1 100%);
+
+}
+
+.edit:active {
+    position: relative;
+    top: 1px;
+}
+
+button{
+    margin-right: 5px;
+}
+
+.botonera{
+    text-align: center;
+}

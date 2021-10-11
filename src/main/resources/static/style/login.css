@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+*:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: url(../img/login.png) center center fixed;
+	background-size: cover;
+}
+
+button{
+    background: #080c3f;
+	color: #fefefe;
+	border: 0;
+    cursor: pointer;
+    min-width: 120px;
+	margin: 1rem 0;
+	padding: 0.5rem 1.5rem;
+	font-size: 0.7rem;
+	/* font-weight: 700; */
+	border-radius: 3px;
+}
+
+button:focus {
+	outline: 0;
+}
+
+h1{
+    color: #080c3f;
+	text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+main {
+	border-radius: 3px;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: center;
+	width: 80%;
+	height: 60%;
+	min-height: 300px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ddd;
+}
+
+
+.panelEstatico .contenedorPanel {
+	padding: 3rem;
+}
+
+.contenedorForm {
+	position: absolute;
+	top: -5%;
+	left: 4%;
+	width: 50%;
+	height: 110%;
+	background: #fefefe;
+	box-shadow: 3px -2px 6px 0px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    width: 100%;
+	margin-top: 2.5em;
+}
+
+input{
+    width: 80%;
+	margin-bottom: 1rem;
+	padding: 0.4rem 0.2rem;
+	font-size: 0.8rem;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #ddd;
+}
+
+input:focus{
+    outline: 0;
+}
+
+.panel__copy {
+	font-size: 0.7rem;
+}
+
+
+a, a:focus, a:visited, a:active {
+	display: block;
+	font-size: 0.7rem;
+	text-decoration: none;
+	color: #aaa;
+}

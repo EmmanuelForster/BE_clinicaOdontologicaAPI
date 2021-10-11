@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Turno</title>
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/turno.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="titulo">
+                <p>Turnos</p>
+            </div>
+            <div class="vinculos">
+                <a href="./index.html">Home</a>
+                <a href="./listarTurnos.html">Ver todos</a>
+                <a href="./listarOdontologo.html">Odontólogos Registrados</a>
+                <a href="./listarPaciente.html">Pacientes Registrados</a>
+                <p>About</p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="POST" class="agregarTurno">
+            <div class="tituloForm">
+                <h2>Nuevo Turno</h2>
+            </div>
+            <div>
+                <label>
+                    Odontólogo
+                    <select>
+                        <option>Emmanuel</option>
+                        <option>Leia</option>
+                        <option>Camila</option>
+                    </select>
+                </label>
+                <label>
+                    Paciente
+                    <select>
+                        <option>Gonzalo</option>
+                        <option>Luke</option>
+                        <option>Romina</option>
+                    </select>
+                </label>
+                <label>
+                    <input type="datetime-local" name="fecha" id="fecha" placeholder="AAAA-MM-DD">
+                </label>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </main>
+    
+</body>
+
+</html>

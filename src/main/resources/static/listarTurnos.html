@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style/listar.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="titulo">
+                <p>Turnos</p>
+            </div>
+            <div class="vinculos">
+                <a href="./index.html">Home</a>
+                <a href="./agregarTurno.html">Nuevo Turno</a>
+                <a href="./listarOdontologo.html">Odontólogos Registrados</a>
+                <a href="./listarPaciente.html">Pacientes Registrados</a>
+                <p>About</p>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="tituloTabla">
+            <h6></h6>
+        </div>
+        <div class="table-responsive">
+            <table class="tabla" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Odontólogo</th>
+                        <th>Paciente</th>
+                        <th>Fecha</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Emmanuel</td>
+                        <td>Gonzalo</td>
+                        <td>29/09/2021</td>
+                        <td class="botonera">
+                            <button class="delete" id="delete"><i class="fas fa-trash-alt"></i></button>
+                            <button class="edit" id="edit"><i class="far fa-edit"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Leia</td>
+                        <td>Luke</td>
+                        <td>25/6/2021</td>
+                        <td class="botonera">
+                            <button class="delete" id="delete"><i class="fas fa-trash-alt"></i></button>
+                            <button class="edit" id="edit"><i class="far fa-edit"></i></button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+
+
+    </main>
+    
+    <script src="./get_turno.js"></script>
+</body>
+</html>

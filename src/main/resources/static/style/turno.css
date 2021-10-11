@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav{
+    width: 15vw;
+    background-color: #5D5A5D;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+main{
+    width: 85vw;
+}
+
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 90vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 30em;
+    margin: 30px calc(50% - 15em); 
+    padding: 2em 4em;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: center;
+    height: 20vh;
+}
+
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+input{
+    width: 250px;
+    border: transparent;
+    height: 40px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(109, 109, 109, 0.685);
+    outline: none;
+}
+
+::placeholder{
+    font-size: 15px;
+    line-height: 40px;
+}
+
+label{
+    width: 250px;
+}
+
+select{
+    margin-left: 15px;
+}
+
+button{
+    background: linear-gradient(180deg, #787D8D 0%, #717FB3 100%);
+    color: white;
+    border-radius: 3px;
+    padding: 15px;
+    width: 95px;
+    border: transparent;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(180deg, #707483 0%, #6672a0 100%);
+
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+.titulo{
+    height: 80px;
+    background-color: #423D46;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.vinculos{
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 15px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(109, 109, 109, 0.685);
+}
+
+a:hover{
+    color:rgb(179, 176, 176);
+}
